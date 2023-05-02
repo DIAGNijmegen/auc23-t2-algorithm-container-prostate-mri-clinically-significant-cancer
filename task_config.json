@@ -1,0 +1,11 @@
+{
+  "input_interfaces": [
+    "transverse-t2-prostate-mri",
+    "transverse-hbv-prostate-mri",
+    "transverse-adc-prostate-mri"
+  ],
+  "output_interfaces": [
+    "prostate-cancer-likelihood"
+  ],
+  "roi_segmentation_interface": null
+}
