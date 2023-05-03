@@ -69,7 +69,7 @@ The inference codebase is packaged in the `.whl` file in `/vendor`. This python 
 
 To implement your own algorithm, replace the `.whl` file with one that contains inference code of your own algorithm. See the [AUC23 baseline algorithm repo](https://github.com/DIAGNijmegen/universal-classifier-t9603) for how to create a `.whl` for your own codebase. As also detailed in that repository, your algorithm should implement a `predict()` function that runs your algorithm on input images. This function should expect as arguments paths to the input images, as well as a path to your trained model, i.e. the weights and data that your algorithm additionally needs to produce its output. This is described in more detail in the [AUC23 baseline algorithm repo](https://github.com/DIAGNijmegen/universal-classifier-t9603).
 
-If you use a `.whl` file with a different name, also make sure to update the package name in `requirements.txt` as well.
+If you use a `.whl` file with a different name, make sure to update the package name in `requirements.txt` as well.
 
 ### Trained model
 The trained model is stored in the `./artifact` folder. This folder contains all task-specific information, such as model weights, that your inference codebase needs to produce its output from the input 3D medical image(s). 
