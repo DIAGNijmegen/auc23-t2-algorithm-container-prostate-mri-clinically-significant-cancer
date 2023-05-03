@@ -75,3 +75,5 @@ if __name__ == "__main__":
         config = json.load(f)
 
     Algorithm(**config, input_path=INPUT_PATH, output_path=OUTPUT_PATH).process()
+
+    
