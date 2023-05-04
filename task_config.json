@@ -1,8 +1,8 @@
 {
   "input_interfaces": [
     "transverse-t2-prostate-mri",
-    "transverse-hbv-prostate-mri",
-    "transverse-adc-prostate-mri"
+    "transverse-adc-prostate-mri",
+    "transverse-hbv-prostate-mri"
   ],
   "output_interfaces": [
     "prostate-cancer-likelihood"
