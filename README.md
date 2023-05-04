@@ -33,7 +33,7 @@ You can create an Algorithm by following [this link](https://grand-challenge.org
 | Brain - MRI - Glioma                      | `T1 Brain MRI`, `T1GD Brain MRI`, `T2 Brain MRI`, `FLAIR Brain MRI` | `WHO grade probabilities`                      |
 | Breast - MRI - Molecular cancer type      | `T1 subtraction MRI`                                                | `Breast cancer molecular subtype probabilities` |
 | Retina - OCT - Glaucoma                   | `Optical coherence tomography image (OCT)`                           | `Probability POAG`                             |
-| Prostate - MRI - Clinically significant cancer | `Transverse T2 Prostate MRI`, `Transverse HBV Prostate MRI`, `Transverse ADC Prostate MRI` | `Case-level Cancer Likelihood Prostate MRI`   |
+| Prostate - MRI - Clinically significant cancer | `Transverse T2 Prostate MRI`, `Transverse ADC Prostate MRI`, `Transverse HBV Prostate MRI` | `Case-level Cancer Likelihood Prostate MRI`   |
 | Kidney - CT - Abnormality                 | `CT Image`                                                           | `Probability kidney abnormality`               |
 
    * Choose `Viewer CIRRUS Core (Public)` as a `Workstation`;
