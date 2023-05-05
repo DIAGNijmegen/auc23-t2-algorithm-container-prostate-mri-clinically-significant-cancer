@@ -21,7 +21,7 @@ ENV PATH="/home/algorithm/.local/bin:${PATH}"
 RUN python -m pip install --user -U pip
 
 COPY --chown=algorithm:algorithm requirements.txt /opt/algorithm/
-COPY --chown=algorithm:algorithm vendor/universalclassifier-0.1.0-py3-none-any.whl /opt/algorithm/vendor/
+COPY --chown=algorithm:algorithm vendor/ /opt/algorithm/vendor/
 RUN python -m pip install --user -r requirements.txt
 
 COPY --chown=algorithm:algorithm process.py /opt/algorithm/
